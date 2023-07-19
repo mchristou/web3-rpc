@@ -31,4 +31,3 @@ export class Rpc {
     return await connection.getBalance(pubkey);
   }
 }
-

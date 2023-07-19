@@ -24,5 +24,4 @@ describe('Unit tests', () => {
     console.log(key.toString());
     await rpc.getProgramAccounts(key).then(res => expect(res.length > 1).to.be.true);
   });
-
 });
